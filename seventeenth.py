@@ -1,6 +1,6 @@
 import pyautogui
 
 while True:
-    a = pyautogui.position()
+    h = pyautogui.position()
 
-    print(a)
+    print(h)
