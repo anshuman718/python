@@ -3,17 +3,17 @@ import pyperclip
 import time
 import google.generativeai as  genai
 genai.configure (api_key="AIzaSyDFC6dgyBQKj96VERy1wdgHvTKmFQmed8c")
-model= genai.GenerativeModel('gemini.pro')                
+model= genai.GenerativeModel('gemini-2.5-flash')                
 def copy_message():
-    pyautogui.moveTo(1010,1061)
-    pyautogui.doubleClick(1010,1061)
+    pyautogui.moveTo(1018,1060)
+    pyautogui.doubleClick(1018,1060)
     time.sleep(5)
-    pyautogui.moveTo(1224,722)
-    pyautogui.doubleClick(1224,722)
-    time.sleep(5)
-    pyautogui.moveTo(1277,637)  
+    pyautogui.moveTo(1294,437)
+    pyautogui.doubleClick(1294,437)
+    
+    pyautogui.moveTo(1608,807)  
     time.sleep(3)
-    pyautogui.dragTo(1289,864)
+    pyautogui.dragTo(1657,909, duration= 1.0 ,button='left')
     time.sleep(5)
     pyautogui.hotkey("ctrl", "c")
     time.sleep(5)
@@ -34,7 +34,7 @@ pyperclip.copy(response.text)
 print("Bot response:", response.text)
 
 
-pyautogui.click(1224,940)
+pyautogui.click()
 time.sleep(4)
 
 pyautogui.hotkey("ctrl","v")
