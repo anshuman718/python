@@ -16,7 +16,7 @@ print ("History of england")
 t = 55
 
 r = 56
-
+# we have given the values of the variables t and r to python.
 print(t+r>444)
 
 print(t*r>444)

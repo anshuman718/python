@@ -1,9 +1,17 @@
 
 f = 1
 
-while(f<6):
+while(f<499955454455):
     print(f)
+    if f == 3459:
+       break
+
+    
+    
     f +=1
+ 
+
+
 
 def percentage():
 
@@ -19,4 +27,17 @@ def percentage():
 
  print(percentage)
 percentage()
+
+# We have made a function to calculate percentage.
+
+g = 3
+while g < 55:
+   print(g)
+   g += 1
+
+
+else:
+   print("g is no longer smaller than 55.")
+
+
 

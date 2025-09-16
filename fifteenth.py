@@ -45,3 +45,6 @@ def area():
  area = (pi*radius*radius)
  print(area)
 area()
+
+# Above ,we have created function to calculate various things such as area,cube,square etc.we simply have to write the formula for the desired 
+# calculation and then print the variable.

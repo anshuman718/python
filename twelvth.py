@@ -16,4 +16,4 @@ for i in range(80):
     t.done()
 
     # We can also do graphics and drawings with the help of python as we did through microsoft logo.
-    # We have to select the color of the pen and tell it the directions to move
+    # We have to select the color of the pen and tell it the directions to move.

@@ -1,7 +1,7 @@
 import pyautogui
 import time 
 import pyperclip
-
+# pyautogui and pyper click are python modules used to automate the graphical user interferance(GUI).
 
 def get_message_from_clipboard():
 
@@ -26,8 +26,10 @@ def get_message_from_clipboard():
     pyautogui.hotkey('ctrl','c')
     message = pyperclip.paste()
     return message
-    
+    # Here we have said python to use pyautogui and click at different coordinates so that various icons and files can be opened .we also need 
+    # to use the built in module ""time" because it takes some seconds for the file to be opened.
 
 get_message_from_clipboard()
+# After that we have copied some text from the file and pasted it to clipboard.
 
 

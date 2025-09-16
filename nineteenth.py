@@ -1,7 +1,7 @@
 
 import random
 def secure():
-    chars = "qwertyuiopasdfghjklzxcvbnm,./';[]=-09876544213|<>:?*()@#$%^&*!"
+    chars = "qwertyuiopasdfghjklzxcvbnm09876544213"
     length=int(input("Enter length :"))
 
     password = ""
@@ -18,9 +18,9 @@ my_function("superman","Hulk","Batman")
 
 
 
-def my_function2(character , character2,character3):
+def my_function2(character1 ,character2,character3):
     print("The greatest character is " + character3)
-my_function2(character="superman",character2="Hulk", character3="Batman")
+my_function2(character1="superman",character2="Hulk", character3="Batman")
 
 
 

@@ -8,8 +8,8 @@ def copy_message():
     pyautogui.moveTo(1018,1060)
     pyautogui.doubleClick(1018,1060)
     time.sleep(5)
-    pyautogui.moveTo(1294,437)
-    pyautogui.doubleClick(1294,437)
+    pyautogui.moveTo(1355,371)
+    pyautogui.doubleClick(1355,371)
     
     pyautogui.moveTo(1608,807)  
     time.sleep(3)
@@ -24,7 +24,7 @@ print("copied message:", chat_history)
 
 prompt = f"""
 You are Henry, a coder from India who speaks Hindi and English.
-Respond naturally to the following message:
+Respond naturally as Henry  to the following message:
 {chat_history}
 """
 

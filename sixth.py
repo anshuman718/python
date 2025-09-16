@@ -8,7 +8,8 @@ if t > d and t>f :
 
     print("t is the greatest number in the following")
 
-    #This is used to compare three or more things and show that one of them is the highest,lowest,greatest and so on.This is also  a type of condition.
+    #This is used to compare three or more things and show that one of them is the highest,lowest,greatest and so on.
+    # This is also  a type of condition.
 
     day = 8
     match day:
@@ -35,3 +36,21 @@ if t > d and t>f :
             print("the other days")
     # Here we have given python eight different cases and told it to print the result for the respective case instructed by the user.
 
+day = 22
+match day:
+    case 44:
+        print("Today is the celebration day")
+    case 25:
+        print("Today is the result day")
+    case _:
+        print("Today is Halloween!")
+
+
+month = 5
+day = 77
+match day:
+    case 22|44|77 if month == 3:
+        print("Today is October thirty first")
+    case 66|77 if month == 5:
+        print("Today is Christmas!")
+    

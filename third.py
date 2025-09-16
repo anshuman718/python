@@ -11,7 +11,7 @@ f = "455"
 print(type(a))
 print(type(v))
 print(type(f))
-
+# In the above command python wil tell us the data type of the respective variables.
 c = int(f)
 d = str(v )
 

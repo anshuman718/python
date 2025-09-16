@@ -8,3 +8,4 @@ response = client.models.generate_content(
 )
 print(response.text)
 
+# API key is a type of password with which we can use AI in various softwares also and in programming.
